@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/strugee/node-domain-from-partial-url/issues"
   },
-  "homepage": "https://github.com/strugee/node-domain-from-partial-url#readme"
+  "homepage": "https://github.com/strugee/node-domain-from-partial-url#readme",
+  "dependencies": {
+    "perjury": "^0.4.3"
+  }
 }

@@ -15,6 +15,8 @@
 
 'use strict';
 
-module.exports = function domainFromPartialUrl(str) {
+var regexp = /(?:https?:\/\/)?([^/]*).*/;
 
+module.exports = function domainFromPartialUrl(str) {
+	return regexp.exec(str)[1];
 }
