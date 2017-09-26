@@ -1,6 +1,7 @@
 # `domain-from-partial-url`
 
 [![Build Status](https://travis-ci.org/strugee/node-domain-from-partial-url.svg?branch=master)](http://travis-ci.org/strugee/node-domain-from-partial-url)
+[![Coverage Status](https://coveralls.io/repos/github/strugee/node-domain-from-partial-url/badge.svg?branch=master)](https://coveralls.io/github/strugee/node-domain-from-partial-url?branch=master)
 [![npm](https://img.shields.io/npm/v/domain-from-partial-url.svg)](https://npmjs.com/package/domain-from-partial-url)
 [![Greenkeeper badge](https://badges.greenkeeper.io/strugee/node-domain-from-partial-url.svg)](https://greenkeeper.io/)
 
