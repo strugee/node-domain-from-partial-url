@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/strugee/node-domain-from-partial-url#readme",
   "dependencies": {
-    "perjury": "^0.4.3"
+    "perjury": "^1.0.1"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
