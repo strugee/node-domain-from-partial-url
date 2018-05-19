@@ -15,8 +15,10 @@
 
 'use strict';
 
-var regexp = /(?:https?:\/\/)?([^/]*).*/;
+var url = require('url'),
+    hasScheme = require('has-scheme');
 
 module.exports = function domainFromPartialUrl(str) {
-	return regexp.exec(str)[1];
+	// url.parse thinks 'example.com' is a path instead of a hostname, so if the argument doesn't have a scheme we fake one up so it parses right
+	return url.parse(hasScheme(str) ? str : 'http://' + str).hostname;
 }

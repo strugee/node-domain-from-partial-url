@@ -20,7 +20,9 @@
     "url": "https://github.com/strugee/node-domain-from-partial-url/issues"
   },
   "homepage": "https://github.com/strugee/node-domain-from-partial-url#readme",
-  "dependencies": {},
+  "dependencies": {
+    "has-scheme": "^1.0.0"
+  },
   "devDependencies": {
     "coveralls": "^3.0.0",
     "nyc": "^11.2.1",
