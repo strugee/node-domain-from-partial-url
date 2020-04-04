@@ -4,9 +4,13 @@
 
 ## 2.0.0 - future
 
+### Added
+
+* Support Node 10 and 12
+
 ### Breaking
 
-* Drop support for end-of-life Node 4, 5, 6, 7, and 9
+* Drop support for end-of-life Node 4, 5, 6, and 7
 
 ## 1.1.0 - 2018-05-18
 
