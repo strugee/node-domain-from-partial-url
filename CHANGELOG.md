@@ -6,7 +6,7 @@
 
 ### Breaking
 
-* Drop support for end-of-life Node 4, 5, 7, and 9
+* Drop support for end-of-life Node 4, 5, 6, 7, and 9
 
 ## 1.1.0 - 2018-05-18
 
